@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Calculadora</title>       
-    </head>
-    <body>
-        <h1 class="text-center">Calculadora</h1>
-        <div class="calculadora">
-            <div class="display" id="display"></div>
-            <div class="botoes">
-                <button id="limparDisplay">CE</button>
-                <button id="limparResultado">C</button>
-                <button id="backspace">«</button>
-                <button id="operadorDivisao">/</button>
-                <button id="teclaSete">7</button>
-                <button id="teclaOito">8</button>
-                <button id="teclaNove">9</button>
-                <button id="operadorVezes">*</button>
-                <button id="teclaQuatro">4</button>
-                <button id="teclaCinco">5</button>
-                <button id="teclaSeis">6</button>
-                <button id="operadorSubtracao">-</button>
-                <button id="teclaUm">1</button>
-                <button id="teclaDois">2</button>
-                <button id="teclaTres">3</button>
-                <button id="operadorSoma">+</button>
-                <button id="inverte">±</button>
-                <button id="teclaZero">0</button>
-                <button id="decimal">,</button>
-                <button id="igual">=</button> 
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Calculadora</title>
+</head>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://github.com/Maryucha">
+                    <img class="foto" alt="Calculadora" src="./img/uxa-rodondo.png">
+                    <span><strong>Maryucha M Mariani</strong></span>
+                </a>
             </div>
         </div>
-        <script src="calculadora.js"></script>
-    </body>
+    </nav>
+</header>
+
+<body>
+    <div class="calculadora">
+        <div class="display" id="display"></div>
+        <div class="botoes">
+            <button id="limparDisplay">CE</button>
+            <button id="limparResultado">C</button>
+            <button id="backspace">«</button>
+            <button id="operadorDivisao">/</button>
+            <button id="teclaSete">7</button>
+            <button id="teclaOito">8</button>
+            <button id="teclaNove">9</button>
+            <button id="operadorVezes">*</button>
+            <button id="teclaQuatro">4</button>
+            <button id="teclaCinco">5</button>
+            <button id="teclaSeis">6</button>
+            <button id="operadorSubtracao">-</button>
+            <button id="teclaUm">1</button>
+            <button id="teclaDois">2</button>
+            <button id="teclaTres">3</button>
+            <button id="operadorSoma">+</button>
+            <button id="inverte">±</button>
+            <button id="teclaZero">0</button>
+            <button id="decimal">,</button>
+            <button id="igual">=</button>
+        </div>
+    </div>
+
+    <footer id="myFooter">
+        <div class="container">
+            <p class="footer-copyright">© 2021 Copyright - Maryucha M Mariani</p>
+        </div>
+        <div class="footer-social">
+            <a href="https://github.com/Maryucha" class="social-icons"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/maryuchammariani/" class="social-icons"><i
+                    class="fa fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="calculadora.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
 </html>
